@@ -20,6 +20,7 @@ dependencyResolutionManagement {
 rootProject.name = "KobanKat"
 include(":apiTester")
 include(":core")
+include(":detektRules")
 include(":result")
 include(":either")
 include(":datetime")

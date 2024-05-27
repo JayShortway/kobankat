@@ -6,7 +6,7 @@ plugins {
 kotlin {
     sourceSets {
         commonTest.dependencies {
-            implementation(libs.kotlin.test)
+            implementation(libs.kotlin.test.common)
         }
         androidMain.dependencies {
             api(libs.revenuecat.common)
